@@ -7,6 +7,7 @@
     <title>Recipe - The Globe 环球咖喱</title>
     <link rel="stylesheet" href="Recipe.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <script src="script.js" defer></script>
 </head>
 
 <body>
@@ -20,32 +21,34 @@
             </ul>
         </nav>
 
-        <section class="recipes">
+        <section>
+        <div class="recipes">
             
             <div class="recipe-card">
                 <h3>Recipe 1</h3>
                 <ul>
-                    <li><a href="#main1">Indian Tik-Tak Curry</a></li>
-                    <li><a href="#dessert1">Spiced Milk Tea</a></li>
+                    <li data-image="food1.jpg"><a href="#main1">Indian Tik-Tak Curry</a></li>
+                    <li data-image="food2.jpg"><a href="#dessert1">Spiced Milk Tea</a></li>
                 </ul>
             </div>
-
+            
             <div class="recipe-card">
                 <h3>Recipe 2</h3>
                 <ul>
-                    <li><a href="#main2">Afghan Korma Curry</a></li>
-                    <li><a href="#dessert2">The Globe Special Coffee</a></li>
+                    <li data-image="food3.jpg"><a href="#main2">Afghan Korma Curry</a></li>
+                    <li data-image="food4.jpg"><a href="#dessert2">The Globe Special Coffee</a></li>
                 </ul>
             </div>
-
+            
             <div class="recipe-card">
                 <h3>Recipe 3</h3>
                 <ul>
-                    <li><a href="#main3">Mango Coconut Curry</a></li>
-                    <li><a href="#dessert3">Mango Lassi</a></li>
+                    <li data-image="food3.jpg"><a href="#main3">Mango Coconut Curry</a></li>
+                    <li data-image="food4.jpg"><a href="#dessert3">Mango Lassi</a></li>
                 </ul>
             </div>
-        </section>
+        </div>
+    </section>
     </div>
     
     <div class="image-container">
@@ -65,7 +68,5 @@
             <img src="food3.jpg" alt="Mango Coconut Curry" class="eighth-image">
         </a>
     </div>  
-
-    </div>
 </body>
 </html>
