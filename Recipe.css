@@ -76,6 +76,20 @@ nav a:hover {
 
 }
 
+.recipe-card img {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    display: none;
+    pointer-events: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
 .recipe-card h3 {
     color: #a0522d;
     margin-bottom: 1em; 
@@ -89,7 +103,13 @@ nav a:hover {
 }
 
 .recipe-card ul li {
-    margin: 0.3em 0;
+    margin: 0.5em 0;
+    line-height: 1.8;
+    pointer-events: none;
+}
+
+.recipe-card ul li a {
+    pointer-events: auto;
 }
 
 .recipe-card a {
@@ -134,3 +154,4 @@ nav a:hover {
     background-color: #f5f5dc; 
     width: 30%; 
 }
+
